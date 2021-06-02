@@ -49,7 +49,7 @@ public class EventControllerIT {
 		result.andExpect(jsonPath("$.name").value("Expo XP"));
 		result.andExpect(jsonPath("$.date").value("2021-05-18"));
 		result.andExpect(jsonPath("$.url").value("https://expoxp.com.br"));
-		result.andExpect(jsonPath("$.cityId").value(7L));
+		result.andExpect(jsonPath("$.cityId").value(1L));
 	}
 
 	@Test
